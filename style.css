@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0;
+  }
+
+ 
+  
+  
+  .grid {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    border: 10px solid rgba(68, 67, 67, 0.7);
+    border-radius: 15px;
+    box-shadow: 7px 7px rgba(44, 44, 44, 0.5);
+  }
+  
+  .grid div {
+    height: 25px;
+    width: 25px;
+  }
+  
+  .tetromino {
+    background-color: blue;
+  }
+  
+  
+  .mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(253, 143, 161);
+    border: solid 5px rgb(87, 86, 86);
+    box-shadow: 3px 3px rgb(31, 30, 30);
+    border-radius: 10px;
+  }
+  
+  .mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
+
+.big {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+button {
+    width: 150px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: rgb(3, 104, 104);
+    border: none;
+    transition: background-color 0.2s;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    border: solid;
+    border-color: #23d5ab;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: yellow;
+}
+
+body {
+    background-image: repeating-linear-gradient( -45deg, #ee7752 0px, #ee7752 40px, #23a6d5 40px, #23a6d5 80px);
+    margin: 0;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.big {
+    background-color: lightblue;
+    border-radius: 30px;
+    margin: 30px;
+    box-shadow: 7px 7px rgb(68, 67, 67);
+}
+
+.heading {
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    
+    font-size: 20px;
+    background-color: rgba(238, 51, 197);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+
+
+
+h4 {
+  margin: 0px;
+  font-size: 40px;
+}
